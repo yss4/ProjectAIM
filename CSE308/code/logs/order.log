@@ -1,0 +1,43 @@
+[INFO], 2013-12-02 12:26:54, Getting a list of AIMEntities [CourseOffering] 
+[INFO], 2013-12-02 12:26:55, Updating AIMEntity [CourseOffering] 
+[INFO], 2013-12-02 12:26:57, Getting a list of AIMEntities [CourseOutcomeDirectAssessment] 
+[INFO], 2013-12-02 12:26:57, Updating AIMEntity [CourseOutcomeDirectAssessment] 
+[INFO], 2013-12-02 12:26:57, [CourseOutcomeDirectAssessmentServiceTest.tearDown] 
+[INFO], 2013-12-02 12:26:57, Getting a list of AIMEntities [CourseOutcome] 
+[INFO], 2013-12-02 12:26:57, Updating AIMEntity [CourseOutcome] 
+[INFO], 2013-12-02 12:26:58, [CourseOutcomeServiceTest.tearDown] 
+[INFO], 2013-12-02 12:26:58, Getting a list of AIMEntities [Course] 
+[INFO], 2013-12-02 12:26:58, Updating AIMEntity [Course] 
+[INFO], 2013-12-02 12:26:58, [DegreeProgramServiceTest.tearDown] 
+[INFO], 2013-12-02 12:26:59, Getting a list of AIMEntities [DegreeProgram] 
+[INFO], 2013-12-02 12:26:59, Updating AIMEntity [DegreeProgram] 
+[INFO], 2013-12-02 12:26:59, Deleting AIMEntity [DegreeProgram] 
+[INFO], 2013-12-02 12:27:00, Getting a list of AIMEntities [PEO] 
+[INFO], 2013-12-02 12:27:00, Updating AIMEntity [PEO] 
+[INFO], 2013-12-02 12:27:00, [PeoServiceTest.tearDown] 
+[INFO], 2013-12-02 12:27:00, Getting a list of AIMEntities [StudentOutcome] 
+[INFO], 2013-12-02 12:27:01, Updating AIMEntity [StudentOutcome] 
+[INFO], 2013-12-02 12:27:02, Getting a list of AIMEntities [Survey] 
+[INFO], 2013-12-02 12:27:03, Updating AIMEntity [Survey] 
+[INFO], 2013-12-02 12:27:03, Running testSignupWithDuplicatedUserName() 
+[INFO], 2013-12-02 12:27:03, Make new User with information in signupBean 
+[INFO], 2013-12-02 12:27:03, Try to retrieve User object having same userName in new User from DB 
+[INFO], 2013-12-02 12:27:03, Fail to create new User in DB 
+[INFO], 2013-12-02 12:27:03, Running testLoginWithWrongInformation() 
+[INFO], 2013-12-02 12:27:03, Make new User with information in loginBean 
+[INFO], 2013-12-02 12:27:03, Try to retrieve User object having same userName in new User from DB 
+[INFO], 2013-12-02 12:27:04, Determine whether returned User obect's password retrieved from DB is valid 
+[INFO], 2013-12-02 12:27:04, Not valid password 
+[INFO], 2013-12-02 12:27:04, Make new User with information in loginBean 
+[INFO], 2013-12-02 12:27:04, Try to retrieve User object having same userName in new User from DB 
+[INFO], 2013-12-02 12:27:04, [UserAccountService.login()] Not existing user in DB 
+[INFO], 2013-12-02 12:27:04, Running testLogin() 
+[INFO], 2013-12-02 12:27:04, Make new User with information in loginBean 
+[INFO], 2013-12-02 12:27:04, Try to retrieve User object having same userName in new User from DB 
+[INFO], 2013-12-02 12:27:04, Determine whether returned User obect's password retrieved from DB is valid 
+[INFO], 2013-12-02 12:27:04, Login Successfully 
+[INFO], 2013-12-02 12:27:04, Running testSignupUser() 
+[INFO], 2013-12-02 12:27:04, Make new User with information in signupBean 
+[INFO], 2013-12-02 12:27:04, Try to retrieve User object having same userName in new User from DB 
+[INFO], 2013-12-02 12:27:04, If same userName doesn't exist in DB 
+[INFO], 2013-12-02 12:27:04, Create new User successfully in DB 

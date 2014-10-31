@@ -1,0 +1,277 @@
+/* 
+    Document   : CreateSurvey
+    Created on : Nov 11, 2013, 8:12:55 AM
+    Author     : Diane
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color:#06148C;
+    color: white;
+}
+
+#MainPageLink
+{
+    font-family: 'Viga', cursive;
+    font-size: 130%;
+    color: white;
+}
+
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+#CreateSurveyForm   
+{
+margin:auto;
+position:relative;
+display: block;
+left: 0%;
+top: 30px;
+width:1000px;
+/*height:650px;*/
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+line-height: 24px;
+border-radius: 10px;
+}
+
+#Semester
+{
+position: absolute;
+width:105px;
+margin-left: 82px;
+margin-top: 0px;
+font-size: 100%;
+height: 25px;
+}
+
+#DP
+{
+position: relative;
+margin-left: 14px;
+margin-top: 23px;
+font-size: 100%;
+}
+
+#Ilabel
+{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -22px;
+}
+
+#Instructor
+{
+position: absolute;
+width:230px;
+margin-left: 551px;
+margin-top: 0px;
+font-size: 100%;
+height: 25px;
+}
+
+#Clabel
+{
+    position: absolute;
+    margin-top: 14px;
+}
+
+#selectedCourse
+{
+width:200px;
+margin-left: 180px;
+margin-top: 10px;
+font-size: 100%;
+height: 25px;
+}
+
+#f1Label
+{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -22px;
+}
+
+#file1
+{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    margin-left: 265px;
+    margin-top: 10px;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+#f2Label
+{
+    position: absolute;
+    margin-top: 13px;
+}
+#file2
+{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    margin-left: 180px;
+    margin-top: 8px;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+#f3Label
+{
+    position: absolute;
+    margin-top: 20px;
+    margin-left:0px;
+}
+
+#R1
+{
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 0px;
+}
+
+#file3
+{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    margin-left: 180px;
+    margin-top: 45px;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+#f4Label
+{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 520px;
+}
+
+#R2
+{
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 520px;
+}
+
+#file4
+{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    margin-left: 649px;
+    margin-top: 45px;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+#f5Label
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 520px;
+}
+
+#file5
+{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    margin-left: 650px;
+    margin-top: 10px;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+#f6Label
+{
+    position: absolute;
+    margin-top: 80px;
+}
+
+#file6
+{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    margin-left: 180px;
+    margin-top: 80px;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+#ALabel
+{
+    position: absolute;
+    margin-top: 100px;
+}
+
+#scroll1
+{
+position: absolute;
+height:150px;
+width: 150px;
+margin-top: 140px;
+margin-left: 0px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+color: white;
+}
+
+#CODA
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 520px;
+}
+
+#scroll2
+{
+position: absolute;
+height:150px;
+width: 340px;
+margin-top: 140px;
+margin-left: 520px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+color: white;
+}
+
+#SubmitButton
+{
+width:250px;
+position: relative;
+margin-left: 35%;
+margin-top: 340px;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+height:30px;
+border-radius: 15px;
+}
+#SubmitButton:hover 
+{
+background:#80c8ea;
+color:#09C;
+}
+
+

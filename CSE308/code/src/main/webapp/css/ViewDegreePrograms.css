@@ -1,0 +1,44 @@
+/* 
+    Document   : ViewDegreePrograms
+    Created on : Nov 11, 2013, 1:15:29 PM
+    Author     : Diane
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color:#06148C;
+    color: white;
+}
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+
+#SubmitButton
+{
+width:250px;
+margin-left:41%;
+margin-top: 18%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+height:125px;
+border-radius: 15px;
+}
+#button:hover 
+{
+background:#80c8ea;
+color:#09C;
+}
+
+

@@ -1,0 +1,185 @@
+/* 
+    Document   : DegreeProgramModify
+    Created on : Nov 11, 2013, 2:13:58 PM
+    Author     : Diane
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color:#06148C;
+    color: white;
+}
+
+#MainPageLink
+{
+    font-family: 'Viga', cursive;
+    font-size: 130%;
+    color: white;
+}
+
+
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+#Title
+{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#Table
+{
+height:450px;
+overflow:scroll;
+} 
+
+#TableList
+{
+position: relative;
+border-color: white;
+margin-top: 1%;
+font-size: 100%;
+}
+
+#peoCounter
+{
+width:300px;
+margin-left: 51px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#peo-id
+{
+width:300px;
+margin-left: 9px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#peo-sequence
+{
+margin-left: 29px;
+margin-top: 20px;
+font-size: 100%;
+}
+
+#peo-shortname
+{
+width:300px;
+margin-left: 9px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#peo-description
+{
+width:300px;
+margin-left: 9px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#updatePopup
+{
+position: absolute;
+background-color: #578cca;
+color: #06148C;
+top: 50px;
+left: 50px;
+width: 600px;
+height: 500px;
+border-radius: 15px;
+border-color: white;
+border-width: 5px;
+}
+
+#Change 
+{
+position: relative;
+display: block;
+left: 30px;
+top: 0px;
+margin-left: 50px;
+margin-top:50px;
+width:550px;
+height:450px;
+font-family: 'Viga', sans-serif;
+font-size: 100%;
+font-weight: normal;
+line-height: 15px;
+border-radius: 10px;
+}
+
+#Id-update
+{
+width:300px;
+margin-left: 25px;
+margin-top: 15px;
+font-size: 100%;
+height: 20px;
+}
+
+#Sequence-update
+{
+width:300px;
+margin-left: 20px;
+margin-top: 15px;
+font-size: 100%;
+height: 20px;
+}
+
+#ShortName-update
+{
+width:300px;
+margin-left: 8px;
+margin-top: 15px;
+font-size: 100%;
+height: 20px;
+}
+
+#Description-update
+{
+width:300px;
+margin-left: 6px;
+margin-top: 15px;
+font-size: 100%;
+height: 20px;
+}
+
+#ModifyButton
+{
+width:250px;
+margin-left:110px;
+margin-top: 30px;
+color:#06148C;
+background: #80c8ea;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+height:35px;
+border-radius: 15px;
+}
+#ModifyButton:hover 
+{
+background:#09c;
+color:white;
+}
+

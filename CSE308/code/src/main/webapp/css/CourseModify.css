@@ -1,0 +1,243 @@
+/* 
+    Document   : DegreeProgramModify
+    Created on : Nov 11, 2013, 2:13:58 PM
+    Author     : Diane
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color:#06148C;
+    color: white;
+}
+
+#MainPageLink
+{
+    font-family: 'Viga', cursive;
+    font-size: 130%;
+    color: white;
+}
+
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+}
+
+#Title
+{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#Table
+{
+height:450px;
+overflow:scroll;
+} 
+
+#TableList
+{
+position: relative;
+margin-top: 1%;
+font-size: 100%;
+}
+
+#PC
+{
+position: absolute;
+margin-top: 15px;
+}
+#scroll1
+{
+position: absolute;
+height:150px;
+width: 150px;
+margin-top: 40px;
+margin-left: -20px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+#scroll2
+{
+position: absolute;
+height:150px;
+width: 100px;
+margin-left: 160px;
+margin-top: 24px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+#scroll3
+{
+position: absolute;
+height:150px;
+width: 200px;
+margin-left: 310px;
+margin-top: 8px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+#label1
+{
+position: absolute;
+margin-left: 18px;
+margin-top: 17px;
+font-weight: normal;
+}
+
+#label2
+{
+position: absolute;
+margin-left: 191px;
+margin-top: 2px;
+font-weight: normal;
+}
+
+#label3
+{
+position: absolute;
+margin-left: 338px;
+margin-top: -13px;
+font-weight: normal;
+}
+
+#label12
+{
+position: absolute;
+margin-left: 7px;
+margin-top: 36px;
+font-weight: normal;
+}
+
+#label22
+{
+position: absolute;
+margin-left: 176px;
+margin-top: 18px;
+font-weight: normal;
+}
+
+#label32
+{
+position: absolute;
+margin-left: 352px;
+margin-top: 6px;
+font-weight: normal;
+}
+
+
+#course-id
+{
+width:300px;
+margin-left: 51px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#name
+{
+width:300px;
+margin-left: 9px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+
+#updatePopup
+{
+position: absolute;
+background-color: #578cca;
+color: #06148C;
+top: 50px;
+left: 50px;
+width: 600px;
+height: 500px;
+border-radius: 15px;
+border-color: white;
+border-width: 5px;
+}
+
+#Change
+{
+position: relative;
+display: block;
+left: 30px;
+top: 0px;
+margin-left: 50px;
+margin-top:50px;
+width:550px;
+height:450px;
+font-family: 'Viga', sans-serif;
+font-size: 100%;
+font-weight: normal;
+line-height: 15px;
+border-radius: 10px;
+}
+
+#id-update
+{
+width:300px;
+margin-left: 49px;
+margin-top: 15px;
+font-size: 100%;
+height: 20px;
+}
+
+#name-update
+{
+width:300px;
+margin-left: 71px;
+margin-top: 15px;
+font-size: 100%;
+height: 20px;
+}
+
+#primarycoordinator-update
+{
+width:300px;
+margin-left: 28px;
+margin-top: 15px;
+font-size: 100%;
+height: 20px;
+}
+
+#ModifyButton
+{
+width:250px;
+margin-left:110px;
+margin-top: 180px;
+color:#06148C;
+background: #80c8ea;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+height:35px;
+border-radius: 15px;
+}
+#ModifyButton:hover 
+{
+background:#09c;
+color:white;
+}
+
+

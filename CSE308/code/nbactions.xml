@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>build</actionName>
+            <goals>
+                <goal>install</goal>
+                <goal>cobertura:cobertura</goal>
+                
+            </goals>
+        </action>
+        <action>
+            <actionName>rebuild</actionName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+                <goal>cobertura:cobertura</goal>
+                
+            </goals>
+        </action>
+        <action>
+            <actionName>test</actionName>
+            <goals>
+                <goal>cobertura:cobertura</goal>
+                
+            </goals>
+        </action>
+        
+        
+    </actions>

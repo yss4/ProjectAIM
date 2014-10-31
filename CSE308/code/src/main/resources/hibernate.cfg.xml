@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://sql.spdcx.net:3306/cse308</property>
+        <property name="hibernate.connection.username">cse308</property>
+        <property name="hibernate.connection.password">cse308</property>
+        <property name="hibernate.show_sql">false</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.query.factory_class">org.hibernate.hql.classic.ClassicQueryTranslatorFactory</property>
+        <mapping class="com.cse308.projectaim.hibernate.types.AIMFileWrapper"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.Assignment"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.AttainmentLevel"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.Course"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.CourseOffering"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.CourseOutcome"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.CourseOutcomeDirectAssessment"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.CourseOutcomeSurveyResult"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.DegreeProgram"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.PEO"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.PEOAttainmentLevel"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.Semester"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.SemesterPK"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.StudentOutcome"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.StudentSample"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.Survey"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.User"/>
+        <mapping class="com.cse308.projectaim.hibernate.types.Minutes"/>
+    </session-factory>
+</hibernate-configuration>

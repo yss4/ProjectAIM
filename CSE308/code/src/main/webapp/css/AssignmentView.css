@@ -1,0 +1,54 @@
+/* 
+    Document   : css
+    Created on : Oct 30, 2013, 11:31 PM
+    Author     : Diane Gabrielsen (css implementation)
+*/
+
+body
+{
+    background-color: lightblue;
+    color: #06148C;
+}
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+#main 
+{
+margin:auto;
+position:relative;
+display: block;
+left: 0%;
+top: 50px;
+width:550px;
+height:450px;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+line-height: 24px;
+border-radius: 10px;
+}
+
+#SubmitButton
+{
+width:150px;
+margin-left:180px;
+margin-top: 40px;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+height:30px;
+border-radius: 15px;
+}
+#button:hover 
+{
+background:#80c8ea;
+color:#09C;
+}

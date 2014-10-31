@@ -1,0 +1,168 @@
+/* 
+    Document   : css
+    Created on : Oct 30, 2013, 11:31 PM
+    Author     : Diane Gabrielsen (css implementation)
+*/
+
+body
+{
+    background-color:#06148C;
+    color: white;
+}
+
+#MainPageLink
+{
+    font-family: 'Viga', cursive;
+    font-size: 130%;
+    color: white;
+}
+
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+form    
+{
+margin:auto;
+position:relative;
+display: block;
+left: 0%;
+top: 50px;
+width:550px;
+height:450px;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+line-height: 24px;
+border-radius: 10px;
+}
+
+#scroll1
+{
+position: absolute;
+height:150px;
+width: 150px;
+margin-top: 40px;
+margin-left: -20px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+#scroll2
+{
+position: absolute;
+height:150px;
+width: 150px;
+margin-left: 160px;
+margin-top: 16px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+#scroll3
+{
+position: absolute;
+height:150px;
+width: 150px;
+margin-left: 340px;
+margin-top: -8px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+#label1
+{
+position: absolute;
+margin-left: 18px;
+margin-top: 17px;
+font-weight: normal;
+}
+
+#label2
+{
+position: absolute;
+margin-left: 202px;
+margin-top: -5px;
+font-weight: normal;
+}
+
+#label3
+{
+position: absolute;
+margin-left: 338px;
+margin-top: -27px;
+font-weight: normal;
+}
+
+#label12
+{
+position: absolute;
+margin-left: 7px;
+margin-top: 36px;
+font-weight: normal;
+}
+
+#label22
+{
+position: absolute;
+margin-left: 186px;
+margin-top: 15px;
+font-weight: normal;
+}
+
+#label32
+{
+position: absolute;
+margin-left: 352px;
+margin-top: -7px;
+font-weight: normal;
+}
+
+
+#Identifier
+{
+width:300px;
+margin-left: 42px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#Name
+{
+width:300px;
+margin-left: 71px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#SubmitButton
+{
+width:150px;
+margin-left:180px;
+margin-top: 180px;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+height:30px;
+border-radius: 15px;
+}
+#SubmitButton:hover 
+{
+background:#80c8ea;
+color:#09C;
+}

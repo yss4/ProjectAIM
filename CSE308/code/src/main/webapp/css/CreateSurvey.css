@@ -1,0 +1,155 @@
+/* 
+    Document   : CreateSurvey
+    Created on : Nov 11, 2013, 8:12:55 AM
+    Author     : Diane
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color:#06148C;
+    color: white;
+}
+
+#MainPageLink
+{
+    font-family: 'Viga', cursive;
+    font-size: 130%;
+    color: white ;
+}
+
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+#CreateSurveyForm   
+{
+margin:auto;
+position:relative;
+display: block;
+left: 0%;
+top: 50px;
+width:550px;
+/*height:650px;*/
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+line-height: 24px;
+border-radius: 10px;
+}
+
+#Semester
+{
+position: relative;
+width:105px;
+margin-left: 78px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#DP
+{
+position: relative;
+margin-left: 14px;
+margin-top: 23px;
+font-size: 100%;
+}
+
+#GroupSurveyed
+{
+position: absolute;
+width:300px;
+margin-left: 24px;
+margin-top: -10px;
+font-size: 100%;
+height: 25px;
+}
+
+#Initiator
+{
+width:300px;
+margin-left: 26px;
+margin-top: 20px;
+font-size: 100%;
+height: 25px;
+}
+
+#PEOA
+{
+position: relative;
+margin-left: 0px;
+margin-top: 25px;
+font-size: 100%;
+}
+
+#Levels
+{
+position: relative;
+margin-left: 40px;
+margin-top: 0px;
+font-size: 100%; 
+}
+
+#PEO
+{
+position: absolute;
+width:300px;
+margin-left: 176px;
+margin-top: -45px;
+font-size: 100%;
+height: 25px;
+}
+
+#FileBrowseTextbox
+{
+
+    width: 300px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 0px;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+#scroll
+{
+position: absolute;
+height:150px;
+width: 150px;
+margin-top: 40px;
+margin-left: -20px;
+overflow:scroll;
+font-family: Serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+
+#SubmitButton
+{
+width:250px;
+position: relative;
+margin-left: 35%;
+margin-top: 70px;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+height:30px;
+border-radius: 15px;
+}
+#SubmitButton:hover 
+{
+background:#80c8ea;
+color:#09C;
+}
+
+

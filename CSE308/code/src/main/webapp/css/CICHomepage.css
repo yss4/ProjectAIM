@@ -1,0 +1,206 @@
+/* 
+    Document   : CICHomepage
+    Created on : Nov 14, 2013, 12:10:19 AM
+    Author     : Diane
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color:#06148C;
+    color: white;
+}
+#banner
+{
+    position:relative;
+    text-align:center;
+    top: 10px;
+    background-color: #06148C;
+    font-family: 'Viga', cursive;
+    font-size: 200%;
+    color: white;
+}
+
+#SignOutLink
+{
+    font-family: 'Viga', cursive;
+    font-size: 150%;
+    color: white;
+}
+.gButton
+{
+position: relative;
+width:250px;
+margin-left:0%;
+margin-top: 0%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 0px;
+}
+
+
+#CreateUserButton
+{
+position: absolute;
+width:250px;
+margin-left:15%;
+margin-top: 3%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+#CreateUserButton:hover 
+{
+background:#80c8ea;
+color:#09C;
+}
+
+
+#ViewUserButton
+{
+position: absolute;
+width:250px;
+margin-left:40%;
+margin-top: 3%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+
+#ViewDPButton
+{
+position: absolute;
+width:250px;
+margin-left:65%;
+margin-top: 3%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+#ViewDPButton:hover 
+{
+background:#80c8ea;
+color:#09C;
+}
+
+#ViewPEOButton
+{
+position: absolute;
+width:250px;
+margin-left:15%;
+margin-top: 13%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+
+#ViewSOButton
+{
+position: absolute;
+width:250px;
+margin-left:40%;
+margin-top: 13%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+
+#ViewCourseButton
+{
+position: absolute;
+width:250px;
+margin-left:65%;
+margin-top: 13%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+
+#ViewCOfferingButton
+{
+position: absolute;
+width:250px;
+margin-left:15%;
+margin-top: 23%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+
+#ViewCOutcomeButton
+{
+position: absolute;
+width:250px;
+margin-left:40%;
+margin-top: 23%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+
+#ViewCODAButton
+{
+position: absolute;
+width:250px;
+margin-left:65%;
+margin-top: 23%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
+
+#ViewSurveyButton
+{
+position: absolute;
+width:250px;
+margin-left:40%;
+margin-top: 33%;
+background:#578cca;
+color: #06148C;
+font-family: 'Viga', sans-serif;
+font-size: 20px;
+font-weight: bold;
+height:125px;
+border-radius: 15px;
+}
